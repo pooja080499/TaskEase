@@ -1,0 +1,141 @@
+/* Main Background and Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f3f4f6;
+    height: 100vh;
+    padding: 24px;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-t-lg {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .rounded-b-lg {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .rounded-lg {
+    border-radius: 8px;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  header {
+    background-color: #3b82f6;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .text-2xl {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .bg-blue-300 {
+    background-color: #93c5fd;
+  }
+  
+  .bg-red-500 {
+    background-color: #ef4444;
+  }
+  
+  .bg-gray-300 {
+    background-color: #d1d5db;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  /* Form */
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  input[type="date"] {
+    color: #4b5563;
+  }
+  
+  /* Task List */
+  .space-y-4 > * + * {
+    margin-top: 16px;
+    /* margin-left:5px; */
+  }
+  
+  .text-lg {
+    font-size: 1.125em;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  /* Task Container */
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .p-4 {
+    padding: 16px;
+  }
+  
